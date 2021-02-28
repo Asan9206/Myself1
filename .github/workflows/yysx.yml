@@ -33,7 +33,7 @@ jobs:
         with:
           node-version: 12.x
       - name: npm install
-        if: env.XP_iboxpayHEADER
+        if: env.YYXSSPHD
         run: |
           cd ~/Myself1
           npm install

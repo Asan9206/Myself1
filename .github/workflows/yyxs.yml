@@ -21,7 +21,6 @@ jobs:
         YYXSCJURL: ${{ secrets.YYXSCJURL }}
         YYXSCJHD: ${{ secrets.YYXSCJHD }}
         YYXSXXURL: ${{ secrets.YYXSXXURL }}
-        TZ: Asan9206/Myself1
    steps:
       - name: Checkout
         run: |

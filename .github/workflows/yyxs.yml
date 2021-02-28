@@ -41,7 +41,7 @@ jobs:
         if: env.YYXSSPHD
         run: |
           cd ~/Myself1
-          node Task/yysx.js
+          node Task/yyxs.js
         env:
           
           PUSH_KEY: ${{ secrets.PUSH_KEY }}

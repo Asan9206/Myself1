@@ -37,10 +37,9 @@ jobs:
         run: |
           cd ~/Myself1
           npm install
-      - name: '运行 【yysx】'
+      - name: '运行 【yyxs】'
         if: env.YYXSSPHD
         run: |
-          cd ~/Myself1
           node Task/yyxs.js
         env:
           

@@ -21,7 +21,7 @@ jobs:
         YYXSCJURL: ${{ secrets.YYXSCJURL }}
         YYXSCJHD: ${{ secrets.YYXSCJHD }}
         YYXSXXURL: ${{ secrets.YYXSXXURL }}
-        TZ: Asia/shanghai
+        TZ: Asan9206/Myself1
     steps:
       - name: Checkout
         uses: actions/checkout@v1
